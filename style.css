@@ -1,3 +1,13 @@
+:root {
+	--clr-dark-900: 238 29% 16%;
+	--clr-dark-800: 237 12% 33%;
+	--clr-dark-700: 240 6% 50%;
+	--clr-neutral-300: 273 75% 66%;
+	--clr-neutral-400: 240 73% 65%;
+	--clr-light-200: 240 5% 91%;
+	--clr-light-300: 14 88% 65%;
+}
+
 @font-face {
 	font-display: swap;
 	font-family: 'Kumbh Sans';

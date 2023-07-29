@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Frontend Mentor | FAQ Accordion Card</title>
+		<link
+			rel="shortcut icon"
+			href="assets/icons/favicon-32x32.png"
+			type="image/x-icon"
+		/>
+	</head>
+	<body>
+		<div class="content">
+			<div class="card">
+				<div class="image-section" aria-hidden="true">
+					<div class="mobile-images">
+						<img
+							src="assets/images/illustration-woman-online-mobile.svg"
+							alt=""
+						/>
+						<img src="assets/images/bg-pattern-mobile.svg" alt="" />
+					</div>
+
+					<div class="desktop-images">
+						<img src="assets/images/illustration-box-desktop.svg" alt="" />
+						<img
+							src="assets/images/illustration-woman-online-desktop.svg"
+							alt=""
+						/>
+						<img src="assets/images/bg-pattern-desktop.svg" alt="" />
+					</div>
+				</div>
+
+				<div class="accordion-section">
+					<h2>FAQ</h2>
+
+					<ul class="accordion">
+						<li class="panel">
+							<label for="first">How many team members can I invite?</label>
+							<input type="radio" name="accordion" id="first" />
+							<div class="panel-content">
+								<p>
+									You can invite up to 2 additional users on the Free plan.
+									There is no limit on team members for the Premium plan.
+								</p>
+							</div>
+						</li>
+
+						<li class="panel">
+							<label for="second">What is the maximum file upload size?</label>
+							<input type="radio" name="accordion" id="second" />
+							<div class="panel-content">
+								<p>
+									No more than 2GB. All files in your account must fit your
+									allotted storage space.
+								</p>
+							</div>
+						</li>
+
+						<li class="panel">
+							<label for="third">How do I reset my password?</label>
+							<input type="radio" name="accordion" id="third" />
+							<div class="panel-content">
+								<p>
+									Click “Forgot password” from the login page or “Change
+									password” from your profile page. A reset link will be emailed
+									to you.
+								</p>
+							</div>
+						</li>
+
+						<li class="panel">
+							<label for="fourth">Can I cancel my subscription?</label>
+							<input type="radio" name="accordion" id="fourth" />
+							<div class="panel-content">
+								<p>
+									Yes! Send us a message and we’ll process your request no
+									questions asked.
+								</p>
+							</div>
+						</li>
+
+						<li class="panel">
+							<label for="fifth">Do you provide additional support?</label>
+							<input type="radio" name="accordion" id="fifth" />
+							<div class="panel-content">
+								<p>
+									Chat and email support is available 24/7. Phone lines are open
+									during normal business hours.
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

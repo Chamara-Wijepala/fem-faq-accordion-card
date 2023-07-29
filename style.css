@@ -80,3 +80,29 @@ svg {
 		scroll-behavior: auto !important;
 	}
 }
+
+/* general */
+
+.content {
+	background-image: linear-gradient(
+		hsl(var(--clr-neutral-300)),
+		hsl(var(--clr-neutral-400))
+	);
+	min-height: 100vh;
+	padding: 2rem;
+}
+
+.card {
+	background-color: white;
+	border-radius: 2rem;
+	box-shadow: 0 50px 50px -25px hsl(0 0% 0% / 0.2);
+	max-width: 56rem;
+	margin-inline: auto;
+}
+
+@media (min-width: 60em) {
+	.card {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}

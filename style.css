@@ -1,3 +1,19 @@
+@font-face {
+	font-display: swap;
+	font-family: 'Kumbh Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./assets/fonts/kumbh-sans-v20-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Kumbh Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./assets/fonts/kumbh-sans-v20-latin-700.woff2') format('woff2');
+}
+
 /*  Edited version of CSS reset by Andy Bell */
 /*  https://piccalil.li/blog/a-modern-css-reset/ */
 
@@ -30,6 +46,7 @@ body {
 body {
 	text-rendering: optimizeSpeed;
 	line-height: 1.5;
+	font-family: 'Kumbh Sans', sans-serif;
 }
 
 img,

@@ -114,6 +114,49 @@ svg {
 	top: -7rem;
 }
 
+.accordion-heading {
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+}
+.accordion {
+	padding: 2rem;
+}
+.panel {
+	border-bottom: 1px solid hsl(var(--clr-light-200));
+	padding-block: 1.125rem;
+	color: hsl(var(--clr-dark-700));
+}
+.panel > label {
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.panel > label:hover {
+	color: hsl(var(--clr-light-300));
+}
+.panel > input[type='radio'] {
+	display: none;
+}
+.panel > input[type='radio']:checked + label {
+	color: hsl(var(--clr-dark-900));
+	font-weight: 700;
+}
+.panel > input[type='radio']:checked + label > img {
+	transform: rotate(180deg);
+}
+.panel-icon {
+	width: 0.75rem;
+}
+.panel-content {
+	display: none;
+}
+.panel > input[type='radio']:checked ~ .panel-content {
+	padding-top: 0.875rem;
+	display: block;
+}
+
 @media (min-width: 60em) {
 	.card {
 		display: grid;

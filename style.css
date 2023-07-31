@@ -137,6 +137,7 @@ svg {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	transition: color 0.2s;
 }
 .panel > label:hover {
 	color: hsl(var(--clr-light-300));

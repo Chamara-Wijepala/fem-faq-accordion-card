@@ -115,6 +115,10 @@ svg {
 	top: -7rem;
 }
 
+.desktop-images {
+	display: none;
+}
+
 .accordion-heading {
 	font-size: 2rem;
 	font-weight: 700;
@@ -176,5 +180,20 @@ svg {
 
 	.mobile-images {
 		display: none;
+	}
+
+	.desktop-images {
+		display: block;
+		min-height: 100%;
+		background: url('assets/images/illustration-woman-online-desktop.svg')
+				bottom 5rem left -5rem,
+			url('assets/images/bg-pattern-desktop.svg') bottom -8.75rem left -35.75rem;
+		background-repeat: no-repeat;
+		position: relative;
+	}
+	.desktop-images > img {
+		position: absolute;
+		left: -8rem;
+		top: 42%;
 	}
 }

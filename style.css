@@ -96,7 +96,7 @@ svg {
 	background-color: white;
 	border-radius: 2rem;
 	box-shadow: 0 50px 50px -25px hsl(0 0% 0% / 0.2);
-	max-width: 56rem;
+	max-width: 60rem;
 	margin: 8rem auto 0 auto;
 }
 
@@ -161,6 +161,16 @@ svg {
 	.card {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+	}
+
+	.accordion-section {
+		padding: 4rem 4rem 4rem 0;
+	}
+	.accordion-heading {
+		text-align: start;
+	}
+	.accordion {
+		padding: 0;
 	}
 
 	.mobile-images {
